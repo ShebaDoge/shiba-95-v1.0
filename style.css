@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'mssans';
+    src: url('mssans.woff2') format('woff2'),
+         url('mssans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+::selection {
+  background: darkblue; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: darkblue; /* Gecko Browsers */
+}
+::-webkit-scrollbar {
+  width: 20px;
+  border-width:3px;
+  border-style:outset;
+  border-color:grey;
+}
+::-webkit-scrollbar-track {
+  background: #888;
+  border-width:3px;
+  border-style:inset;
+  border-color:#b3b3b3;
+}
+::-webkit-scrollbar-thumb {
+  background: #c4c4c4;
+  border-width:3px;
+  border-style:outset;
+  border-color:grey;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-width:3px;
+  border-style:inset;
+  border-color:grey;
+}
+html, body {
+	font-family:mssans;
+	background-color:#c7c7c7;
+}
+
+button{
+ border-radius:0px;
+	padding:5px;
+	background-color:#cccccc;
+	border-width:4px;
+	border-color:#c2c2c2;
+	border-style:outset;
+	font-family:mssans;
+}
+button:hover{
+	background-color:#ababab;
+	border-color:#999999;
+	border-style:inset;
+}
+.bor{
+	border-color:#b8b8b8;
+	border-width:2px;
+	border-style:outset;
+	padding:5px;
+	margin:auto;
+	float:center;
+	width:80%;
+	background-color:#b8b8b8;
+}
+.ti{
+	font-size:25px
+	margin:0px;
+	padding:auto;
+}
+.i{
+	font-size:18px;
+}
+rem{
+ color:white;
+}
+.ren{
+  float:center;
+  margin:auto;
+  display:block;
+}

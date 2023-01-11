@@ -1,0 +1,28 @@
+
+a{
+ border-radius:0px;
+	padding:5px;
+	background-color:#cccccc;
+	border-width:4px;
+	border-color:#c2c2c2;
+	border-style:outset;
+	font-family:mssans;
+}
+a:hover{
+  	background-color:#ababab;
+	border-color:#999999;
+	border-style:inset;
+  
+}
+html{
+  background-color:#c7c7c7;
+  font-family:mssans;
+}
+@font-face {
+    font-family: 'mssans';
+    src: url('../shiba/mssans.woff2') format('woff2'),
+         url('../shiba/mssans.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
