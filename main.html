@@ -10,6 +10,18 @@
 
 <body>
   <script src="pswd.js"></script>
+	<script>
+	var counterContainer = document.querySelector(".number");
+var Count = localStorage.getItem("page_view");
+if (Count) {
+  Count = Number(visitCount) + 1;
+  localStorage.setItem("page_view", Count);
+} else {
+  Count = 1;
+  localStorage.setItem("page_view", 1);
+}
+counterContainer.innerHTML = Count;
+	</script>
 <div class="bor">
   <div class="ren" width="50%">
 	<marquee style="background-color:darkblue;width:100%;background: linear-gradient(90deg, rgba(9,8,111,1) 37%, rgba(151,151,255,1) 100%);"><p class="ti" style="color:white;">Shiba 95 <b style="color:red;">V.0.2.8 Pre-Beta</b></p></marquee>
@@ -29,7 +41,8 @@
 	<button onclick="window.location.href='admin.html';">Admin panel</button>
 	<button onclick="window.location.href='silver.html';">Silver</button>
 </div>
-	
+	<div id=".number">
+	</div>
 
 </body>
 
