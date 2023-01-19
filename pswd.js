@@ -40,9 +40,9 @@ alert("success!");
 	var game = window.open("", "_self", "width=1500,height=1000");
         game.document.write('<iframe src="https://unbl0ck3d-games.github.io/Cookie-Clicker-Source-Code/"  width="100%" height="700px" title="Iframe none" onload="javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));"style="height:900px;width:100%;border:none;overflow:hidden;border:none;"></iframe><br><br><br><a href="../shiba-95-v1.0/main.html">main</a><link href="../shiba-95-v1.0/gmestyl.css" rel="stylesheet">');
         game.document.write('</body></html>');
-} else if (pswd == "duck"){//duckhuntjs.com/
+} else if (pswd == "stick"){//https://stickmanhook.github.io/
 var game = window.open("", "_self", "width=1500,height=1000");
-        game.document.write('<iframe src="duckhuntjs.com/"  width="100%" height="700px" title="Iframe none" onload="javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));"style="height:900px;width:100%;border:none;overflow:hidden;border:none;"></iframe><br><br><br><a href="../shiba-95-v1.0/main.html">main</a><link href="../shiba-95-v1.0/gmestyl.css" rel="stylesheet">');
+        game.document.write('<iframe src="https://stickmanhook.github.io/"  width="100%" height="700px" title="Iframe none" onload="javascript:(function(o){o.style.height=o.contentWindow.document.body.scrollHeight+"px";}(this));"style="height:900px;width:100%;border:none;overflow:hidden;border:none;"></iframe><br><br><br><a href="../shiba-95-v1.0/main.html">main</a><link href="../shiba-95-v1.0/gmestyl.css" rel="stylesheet">');
         game.document.write('</body></html>');
   alert("success!");
 }else if (pswd == "unblock"){//script.google.com/macros/s/AKfycbxO8jKpDOwFYpSGrGbReR4Mv2e1-6T4uHsWBphygjzyG8Qqpvij/exec
