@@ -7,10 +7,10 @@
 
 }
 ::selection {
-  background: darkblue; /* WebKit/Blink Browsers */
+  background: darkblue;
 }
 ::-moz-selection {
-  background: darkblue; /* Gecko Browsers */
+  background: darkblue;
 }
 ::-webkit-scrollbar {
   width: 20px;
@@ -59,12 +59,11 @@ button:disabled,
 button[disabled]{
 	 border-radius:0px;
 	padding:5px;
-	background-color:#e3e3e3;
+	background-color:#cccccc;
 	border-width:4px;
 	border-color:#c2c2c2;
 	border-style:outset;
 	font-family:mssans;
-	color:#f7f7f7;
 }
 .bor{
 	border-color:#b8b8b8;
