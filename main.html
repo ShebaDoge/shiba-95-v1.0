@@ -22,6 +22,16 @@ if (Count) {
 }
 counterContainer.innerHTML = Count;
 	</script>
+	<script>
+	function unlock() {
+	let pswd = prompt();
+		if (pswd == "shiba"){
+		document.getElementById("open").disabled = false; 
+		}else {
+		alert("incorrect!");
+		}
+	}
+	</script>
 <div class="bor">
   <div class="ren" width="50%">
 	<marquee style="background-color:darkblue;width:100%;background: linear-gradient(90deg, rgba(9,8,111,1) 37%, rgba(151,151,255,1) 100%);"><p class="ti" style="color:white;">Shiba 95 <b style="color:red;">V.0.2.8 Pre-Beta</b></p></marquee>
@@ -37,13 +47,13 @@ counterContainer.innerHTML = Count;
 	<p>unblock <rem>//web prox</rem></p>
 	<hr>
 	<p></p>
-	<button onclick="attempt()">Run</button>
+	<button onclick="attempt()" id="open" value="disable" disabled>Run</button>
 	<button onclick="window.location.href='admin.html';">Admin panel</button>
-	<button onclick="window.location.href='silver.html';">Silver</button>
+	<button onclick="unlock()">pswd</button>
 </div>
-	
+	<div class="number" style="width:20%;height:15px;">
 	</div>
-<div class="number" style="width:20%;height:15px;">
+
 </body>
 
 </html>
